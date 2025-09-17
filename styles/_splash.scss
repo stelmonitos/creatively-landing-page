@@ -23,3 +23,12 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+.btn-one{
+    background-color: $color-primary;
+    border-color: white;
+    color: $font-bright;
+    // background: linear-gradient(-45deg, green, yellow);
+    // background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%); TO MOZNA DAC DO BTN TWO!!!!!!!!!!
+    background-image: linear-gradient(90deg, white 50%, transparent 50%);
+}

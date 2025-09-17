@@ -21,7 +21,7 @@
   color: #ffffff;
 }
 .navigation ul li a:hover {
-  color: #4b6584;
+  color: #3c516b;
 }
 .navigation ul ul {
   display: none;
@@ -75,28 +75,81 @@
   font-weight: 400;
 }
 
+.btn-one {
+  background-color: #20bf6b;
+  border-color: white;
+  color: #ffffff;
+  background-image: linear-gradient(90deg, white 50%, transparent 50%);
+}
+
 .our-services {
-  color: #4b6584;
+  color: #3c516b;
 }
 .our-services ul {
   list-style: none;
 }
-
-.services-wrapper {
+.our-services .se-title {
+  font-size: 24px;
+  margin: 0 0 12px 0;
+  font-weight: bold;
+}
+.our-services .se-text p:first-child {
+  font-weight: bold;
+}
+.our-services .se-text p {
+  padding: 0 32px 0 0;
+}
+.our-services .se-number {
+  font-family: "Signika", sans-serif;
+  position: absolute;
+  font-size: 144px;
+  font-weight: 900;
+  line-height: 1;
+  opacity: 0.1;
+  top: -25px;
+}
+.our-services .services-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.services-element {
+.our-services .services-element {
+  display: flex;
+  flex-direction: column;
   flex: 0 0 33.333%;
+  position: relative;
+  max-width: 330px;
 }
-
-.services-title {
-  color: #4b6584;
+.our-services .services-title {
+  color: #3c516b;
   font-family: "Inconsolata", monospace;
   font-size: 48px;
   margin: 0 0 72px 0;
+}
+.our-services .btn {
+  margin: auto 0 0 0;
+  align-self: flex-start;
+}
+.our-services .btn:hover {
+  color: white;
+}
+.our-services .btn-two {
+  background-color: white;
+  border-color: #fc5c65;
+  color: #fc5c65;
+  background-image: linear-gradient(45deg, #fc5c65 50%, transparent 50%);
+}
+.our-services .btn-three {
+  background-color: white;
+  border-color: #45aaf2;
+  color: #45aaf2;
+  background-image: linear-gradient(45deg, #45aaf2 50%, transparent 50%);
+}
+.our-services .btn-four {
+  background-color: white;
+  border-color: #20bf6b;
+  color: #20bf6b;
+  background-image: linear-gradient(45deg, #20bf6b 50%, transparent 50%);
 }
 
 /* GLOBAL */
@@ -124,13 +177,6 @@
 .btn:hover {
   background-position: 0 100%;
   color: #20bf6b;
-}
-
-.btn-one {
-  background-color: #20bf6b;
-  border-color: white;
-  color: #ffffff;
-  background-image: linear-gradient(90deg, white 50%, transparent 50%);
 }
 
 body {
