@@ -1,0 +1,21 @@
+.our-services{
+    color: $font-dark;
+    ul{
+        list-style: none;
+    }
+}
+.services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.services-element{
+    flex: 0 0 33.333%;
+}
+.services-title{
+    color: $font-dark;
+    font-family: $font-main;
+    font-size: 48px;
+    margin: 0 0 72px 0;
+}

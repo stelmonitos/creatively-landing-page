@@ -1,0 +1,154 @@
+.navigation {
+  background-color: #20bf6b;
+  padding: 12px 0;
+}
+.navigation li:hover ul {
+  display: block;
+  text-align: center;
+}
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.navigation ul li {
+  display: inline-block;
+  margin-right: 36px;
+  position: relative;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navigation ul li a:hover {
+  color: #4b6584;
+}
+.navigation ul ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+}
+.navigation ul ul li {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+.navigation ul ul li a {
+  color: #20bf6b;
+  display: block;
+  padding: 0 24px;
+  text-align: left;
+}
+.navigation ul ul li a:hover {
+  color: #45aaf2;
+}
+
+.splash {
+  background-color: #20bf6b;
+  color: #ffffff;
+  min-height: 500px;
+  display: flex;
+}
+
+.splash-inner {
+  margin: auto;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 72px;
+  word-spacing: -24px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.page-title span {
+  font-weight: 900;
+}
+
+.page-subtitle {
+  padding-left: 5px;
+  margin: 24px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.our-services {
+  color: #4b6584;
+}
+.our-services ul {
+  list-style: none;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-element {
+  flex: 0 0 33.333%;
+}
+
+.services-title {
+  color: #4b6584;
+  font-family: "Inconsolata", monospace;
+  font-size: 48px;
+  margin: 0 0 72px 0;
+}
+
+/* GLOBAL */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 0.8s;
+}
+.btn:hover {
+  background-position: 0 100%;
+  color: #20bf6b;
+}
+
+.btn-one {
+  background-color: #20bf6b;
+  border-color: white;
+  color: #ffffff;
+  background-image: linear-gradient(90deg, white 50%, transparent 50%);
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1140px;
+  padding-inline: 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 96px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
