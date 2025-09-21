@@ -5,7 +5,7 @@
     }
     .se-title{
         font-size: 24px;
-        margin: 0 0 12px 0;
+        margin: 0;
         font-weight: bold;
     }
     .se-text{
@@ -22,7 +22,7 @@
         font-size: 144px;
         font-weight: 900;
         line-height: 1;
-        opacity: 0.1;
+        opacity: 0.2;
         top: -25px;
     }
     .services-wrapper{
@@ -37,12 +37,6 @@
         position: relative;
         max-width: 330px;
     }
-    .services-title{
-        color: $font-dark;
-        font-family: $font-main;
-        font-size: 48px;
-        margin: 0 0 72px 0;
-    }
 
     .btn{
         margin: auto 0 0 0;
@@ -55,18 +49,18 @@
         background-color: white;
         border-color: $color-extra;
         color: $color-extra;
-        background-image: linear-gradient(45deg, $color-extra 50%, transparent 50%);
+        background-image: linear-gradient(90deg, $color-extra 50%, transparent 50%);
     }
     .btn-three{
         background-color: white;
         border-color: $color-secondary;
         color: $color-secondary;
-        background-image: linear-gradient(45deg, $color-secondary 50%, transparent 50%);
+        background-image: linear-gradient(90deg, $color-secondary 50%, transparent 50%);
     }
     .btn-four{
     background-color: white;
     border-color: $color-primary;
     color: $color-primary;
-    background-image: linear-gradient(45deg, $color-primary 50%, transparent 50%);
+    background-image: linear-gradient(90deg, $color-primary 50%, transparent 50%);
     }
 }

@@ -8,6 +8,13 @@
     box-sizing: border-box;
 }
 
+.section-title{
+        color: $font-dark;
+        font-family: $font-main;
+        font-size: 48px;
+        margin: 0 0 72px 0;
+    }
+
 .btn{
     display: inline-block;
     min-width: 160px;
