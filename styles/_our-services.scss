@@ -25,11 +25,6 @@
         opacity: 0.2;
         top: -25px;
     }
-    .services-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
     .services-element{
         display: flex;
         flex-direction: column;
@@ -37,7 +32,6 @@
         position: relative;
         max-width: 330px;
     }
-
     .btn{
         margin: auto 0 0 0;
         align-self: flex-start;
@@ -58,9 +52,9 @@
         background-image: linear-gradient(90deg, $color-secondary 50%, transparent 50%);
     }
     .btn-four{
-    background-color: white;
-    border-color: $color-primary;
-    color: $color-primary;
-    background-image: linear-gradient(90deg, $color-primary 50%, transparent 50%);
+        background-color: white;
+        border-color: $color-primary;
+        color: $color-primary;
+        background-image: linear-gradient(90deg, $color-primary 50%, transparent 50%);
     }
 }

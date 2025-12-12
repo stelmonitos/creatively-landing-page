@@ -2,56 +2,62 @@
 @import "./navigation";
 @import "./splash";
 @import "./our-services";
+@import "./our-work";
 
 /* GLOBAL */
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.section-title{
-        color: $font-dark;
-        font-family: $font-main;
-        font-size: 48px;
-        margin: 0 0 72px 0;
-    }
-
-.btn{
-    display: inline-block;
-    min-width: 160px;
-    margin: 24px auto 0 auto;
-    padding: 16px;
-    border-radius: 5px;
-    font-family: $font-main;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border-width: 2px;
-    border-style: solid;
-    background-position: 100% 0;
-    background-size: 300%;
-    transition: $transition;
-    &:hover{
-        background-position: 0 100%;
-        color: $color-primary;
-    }
+.section-title {
+  color: $font-dark;
+  font-family: $font-main;
+  font-size: 48px;
+  margin: 0 0 72px 0;
 }
-
+.section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: $font-main;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: $transition;
+  &:hover {
+    background-position: 0 100%;
+    color: $color-primary;
+  }
+}
 
 body {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: $font-main;
-    color: $font-bright;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: $font-main;
+  color: $font-bright;
 }
 
-.container{
-    max-width: 1140px;
-    padding-inline: 20px;
-    margin: 0 auto;
+.container {
+  max-width: 1140px;
+  padding-inline: 20px;
+  margin: 0 auto;
 }
 
 section {
-    padding: 96px 0;
+  padding: 96px 0;
 }
